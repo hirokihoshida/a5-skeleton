@@ -17,3 +17,36 @@
     width: 100%;
     margin-top: 25px;
 }
+
+.datepicker-date-display {
+    background-color: #4caf50;
+}
+.datepicker-cancel, .datepicker-clear, .datepicker-today, .datepicker-done {
+color: #4caf50;
+}
+.datepicker-table td.is-today {
+color: #4caf50;
+}
+.datepicker-table td.is-selected {
+background-color: #4caf50;
+color: #fff;
+}
+
+.timepicker-digital-display {
+    background-color: #4caf50;
+}
+.timepicker-canvas-bg,
+.timepicker-canvas line,
+.timepicker-canvas-bearing {
+  background-color: #4caf50;
+}
+.datepicker-cancel, .datepicker-clear, .datepicker-today, .datepicker-done {
+color: #4caf50;
+}
+.datepicker-table td.is-today {
+color: #4caf50;
+}
+.datepicker-table td.is-selected {
+background-color: #4caf50;
+color: #fff;
+}

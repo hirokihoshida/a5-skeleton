@@ -47,10 +47,10 @@
                     </div>
                 </div>
             </div>
-
         </div>
         <div class="col s10 offset-s1 l2 offset-l2">
-            <a class="waves-effect waves-light menu-btn btn-large green"><i class="material-icons left">add</i>Create
+            <a class="waves-effect waves-light menu-btn btn-large green modal-trigger" href="#create-task-modal"><i
+                    class="material-icons left">add</i>Create
                 Task</a>
         </div>
         <div class="col s10 offset-s1 l2">
@@ -64,6 +64,36 @@
         <div class="col s10 offset-s1 l2">
             <a class="waves-effect waves-light menu-btn btn-large green"><i
                     class="material-icons left">help_outline</i>Help</a>
+        </div>
+    </div>
+    <div id="create-task-modal" class="modal">
+        <div class="modal-content">
+            <h4 style="text-align: center;">Create a Task</h4>
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input placeholder="Math Lecture" id="class_name" type="text" class="validate">
+                            <label for="class_name">Name</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <input type="text" id="start_date" class="datepicker">
+                            <label for="start_date">Start Date</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <input type="text" id="start_time" class="timepicker">
+                            <label for="start_time">Start Time</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <input type="text" id="end_time" class="timepicker">
+                            <label for="end_time">End Time</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <a class="waves-effect waves-light menu-btn btn-large green"><i class="material-icons left">add</i>Create Task</a>
+                        </div>                        
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 
